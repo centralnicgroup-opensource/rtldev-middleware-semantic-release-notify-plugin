@@ -1,12 +1,14 @@
 {
-    "name": "your-project-name",
+    "name": "semantic-release-teams-notify-plugin",
     "version": "1.0.0",
-    "description": "A brief description of your project",
+    "description": "Notify success release via teams channel notifications",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "mocha",
         "start": "node index.js"
     },
+    "type": "module",
+    "repository": "github:centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin.git",
     "keywords": [],
     "maintainers": [
         {
@@ -19,6 +21,17 @@
         }
     ],
     "license": "LICENSE",
-    "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "mocha": "^10.4.0",
+        "nock": "^13.5.4",
+        "prettier": "^3.2.5",
+        "sinon": "^17.0.1"
+    },
+    "dependencies": {
+        "@semantic-release/error": "^4.0.0",
+        "micromatch": "^4.0.5",
+        "node-fetch": "^3.3.2",
+        "rewire": "^7.0.0",
+        "ts-mockito": "^2.6.1"
+    }
 }
