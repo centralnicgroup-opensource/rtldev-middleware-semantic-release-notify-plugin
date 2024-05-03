@@ -22,13 +22,18 @@
     ],
     "license": "LICENSE",
     "devDependencies": {
+        "@semantic-release/changelog": "github:semantic-release/changelog",
+        "@semantic-release/git": "github:semantic-release/git",
         "mocha": "^10.4.0",
         "nock": "^13.5.4",
         "prettier": "^3.2.5",
+        "semantic-release": "^23.0.8",
+        "semantic-release-teams-notify-plugin": "file:./index.js",
         "sinon": "^17.0.1"
     },
     "dependencies": {
         "@semantic-release/error": "^4.0.0",
+        "aggregate-error": "^5.0.0",
         "micromatch": "^4.0.5",
         "node-fetch": "^3.3.2",
         "rewire": "^7.0.0",

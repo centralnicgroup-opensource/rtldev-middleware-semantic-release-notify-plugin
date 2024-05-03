@@ -1,0 +1,32 @@
+{
+    "ci": false,
+    "dryRun": true,
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "HISTORY.md"
+        }
+      ],
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "HISTORY.md",
+            "package?(-lock).json",
+            "assets/*",
+            "lib/*",
+            "index.js"
+          ]
+        }
+      ],
+      "semantic-release-teams-notify-plugin",
+      "@semantic-release/github"
+    ]
+  }

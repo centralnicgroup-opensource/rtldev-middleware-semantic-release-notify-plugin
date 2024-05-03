@@ -7,7 +7,7 @@ const getBaseConfig = packageName => {
   };
 };
 
-const getContext = (branchName = 'master') => {
+const getContext = (branchName = 'main') => {
   const version = '2.0.0';
   return {
       logger: console,
@@ -18,10 +18,13 @@ const getContext = (branchName = 'master') => {
       },
       options: {
           repositoryUrl:
-              'git+https://github.com/juliuscc/semantic-release-slack-bot.git'
+              'git+https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin.git'
       },
       env: {
-          npm_package_name: 'internal test'
+          npm_package_name: 'internal test',
+          TEAMS_NOTIFICATION_URI: process.env.TEAMS_NOTIFICATION_URI,
+          GITHUB_TOKEN: process.env.GITHUB_TOKEN,
+          DEBUG: true
       },
       errors: ['Something went horribly wrong'],
       branch: {
