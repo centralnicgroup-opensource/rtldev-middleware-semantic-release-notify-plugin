@@ -1,6 +1,5 @@
 {
     "ci": false,
-    "dryRun": true,
     "branches": [
       "main"
     ],
@@ -13,7 +12,6 @@
           "changelogFile": "HISTORY.md"
         }
       ],
-      "@semantic-release/npm",
       [
         "@semantic-release/git",
         {
