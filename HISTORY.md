@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.0...v1.0.1) (2024-05-22)
+
+
+### Bug Fixes
+
+* **success.js:** patched an issue where payload file load is failing ([6f6e60a](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/6f6e60a9ec7bacfabde199bf25dca7eb33f0daaf))
+
 # 1.0.0 (2024-05-07)
 
 
