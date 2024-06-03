@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.1...v1.0.2) (2024-06-03)
+
+
+### Bug Fixes
+
+* **package.json:** bumped semantic-release to v24.0.0 ([bb998f6](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/bb998f6d51db48111574561d70febd84b0a40534))
+
 ## [1.0.1](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.0...v1.0.1) (2024-05-22)
 
 
