@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.2...v1.0.3) (2024-11-22)
+
+
+### Bug Fixes
+
+* **postMessage.js:** reviewed retries logic and improved messaging ([84cbe53](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/84cbe536acbc21fd52f14a1d7c4ae86ea3967761))
+
 ## [1.0.2](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.1...v1.0.2) (2024-06-03)
 
 
