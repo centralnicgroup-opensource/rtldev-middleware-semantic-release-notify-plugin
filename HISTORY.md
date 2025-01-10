@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.3...v1.0.4) (2025-01-10)
+
+
+### Bug Fixes
+
+* **dependencies:** upgrade mocha to v11 and sinon to v19, added engines setting to package.json ([304eb54](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/304eb54dc1dc9b6bbbf8e1d3b332cf9df522027a))
+
 ## [1.0.3](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.2...v1.0.3) (2024-11-22)
 
 
