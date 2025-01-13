@@ -9,7 +9,7 @@
     },
     "type": "module",
     "engines": {
-		"node": "^21.6.2",
+		"node": ">=21.6.2",
 		"npm": ">=10.2.4"
 	},
     "repository": "github:centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin.git",
