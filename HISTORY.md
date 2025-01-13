@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.4...v1.0.5) (2025-01-13)
+
+
+### Bug Fixes
+
+* **npm:** review engines.node setting ([4ceecc5](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/4ceecc5d82e11cebce44348a99310543525078b9))
+
 ## [1.0.4](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.3...v1.0.4) (2025-01-10)
 
 
