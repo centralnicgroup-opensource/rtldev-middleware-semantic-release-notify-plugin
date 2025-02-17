@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.5...v1.0.6) (2025-02-17)
+
+
+### Bug Fixes
+
+* **deps & dev-deps:** clean up package.json dependencies and remove unused imports in publish.test.js ([a31ddd6](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/a31ddd69aa75f14b3ca0b5b213e8886d23ead6a7))
+
 ## [1.0.5](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.4...v1.0.5) (2025-01-13)
 
 
