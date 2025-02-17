@@ -4,11 +4,9 @@ import success from '../lib/success.js'; // Updated import statement
 import verifyNotification from '../lib/verifyConditions.js';
 import * as testUtils from './testUtils.js';
 
-let postMessageStub;
-
 describe("test conditions and notification", () => {
     beforeEach(() => {
-        postMessageStub = sinon.stub();
+        sinon.stub();
     });
 
     it("verify conditions", async () => {
