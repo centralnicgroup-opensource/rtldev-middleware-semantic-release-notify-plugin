@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.6...v1.0.7) (2025-09-11)
+
+
+### Bug Fixes
+
+* **index.js:** improve verification logic in success function ([1b47158](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/1b47158c12a0eea57e73390be48b457d5be7bb09))
+* **resolve-config.js:** correct environment variable name for Teams webhook ([8ce06c9](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/8ce06c92b8b110eba1e908a05bacfeac27012556))
+* **verify conditions:** enhance Teams webhook validation and improve error handling ([7939941](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/7939941e22e2d0ccb6bc727a40e490d9cf77120d))
+
 ## [1.0.6](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.5...v1.0.6) (2025-02-17)
 
 
