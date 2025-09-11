@@ -10,12 +10,20 @@ export async function verifyConditions(pluginConfig, context) {
 
 export async function success(pluginConfig, context) {
   if (!verified) {
-    verified = await verifyNotification(pluginConfig, context);
+    try {
+      await verifyNotification(pluginConfig, context);
+      verified = true;
+    } catch (error) {
+      context.logger.log('Warning: Configuration verification failed, skipping Teams notification:', error.message);
+      return;
+    }
   }
 
-  if (!verified) {
-    context.logger.error('Skipping notification due to failed verification of configuration.');
+  try {
+    return await successNotify(pluginConfig, context);
+  } catch (error) {
+    // Never fail the semantic release due to notification issues - just log warnings
+    context.logger.log('Warning: Teams notification failed, but continuing with release:', error.message);
     return;
   }
-  return successNotify(pluginConfig, context);
 }
