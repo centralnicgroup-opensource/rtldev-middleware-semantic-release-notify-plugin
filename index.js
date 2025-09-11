@@ -10,9 +10,12 @@ export async function verifyConditions(pluginConfig, context) {
 
 export async function success(pluginConfig, context) {
   if (!verified) {
-    await verifyNotification(pluginConfig, context);
-    verified = true;
+    verified = await verifyNotification(pluginConfig, context);
   }
 
+  if (!verified) {
+    context.logger.error('Skipping notification due to failed verification of configuration.');
+    return;
+  }
   return successNotify(pluginConfig, context);
 }
