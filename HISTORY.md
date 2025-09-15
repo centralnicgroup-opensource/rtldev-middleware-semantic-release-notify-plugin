@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.7...v1.0.8) (2025-09-15)
+
+
+### Bug Fixes
+
+* **postMessage:** remove unused node-fetch dependency ([959aeeb](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/commit/959aeeb4df37433be4037fb308294e13f01f7a0b))
+
 ## [1.0.7](https://github.com/centralnicgroup-opensource/rtldev-middleware-semantic-release-notify-plugin/compare/v1.0.6...v1.0.7) (2025-09-11)
 
 
