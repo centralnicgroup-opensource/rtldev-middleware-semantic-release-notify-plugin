@@ -38,7 +38,6 @@
     "dependencies": {
         "@semantic-release/error": "^4.0.0",
         "aggregate-error": "^5.0.0",
-        "micromatch": "^4.0.8",
-        "node-fetch": "^3.3.2"
+        "micromatch": "^4.0.8"
     }
 }
