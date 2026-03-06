@@ -1,4 +1,4 @@
-name: Dependabot auto-merge & tests
+name: Dependabot auto-merge & Tests
 on:
   pull_request:
     types:
