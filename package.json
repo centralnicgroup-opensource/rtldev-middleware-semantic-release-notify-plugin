@@ -33,7 +33,7 @@
         "prettier": "^3.8.1",
         "semantic-release": "^24.2.9",
         "semantic-release-teams-notify-plugin": "file:",
-        "sinon": "^19.0.5"
+        "sinon": "^21.1.2"
     },
     "dependencies": {
         "@semantic-release/error": "^4.0.0",
